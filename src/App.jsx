@@ -58,7 +58,7 @@ export default function App() {
           <span className="warning">! </span>Write you massage about our company
           😊
         </p>
-        <span className="content__admin">Admin: <a className="content__link" href="https://instagram.com/1sheraliyev1c">Odilbek Mukhamedov 👨🏻‍💻</a>
+        <span className="content__admin">Admin: <a className="content__link" target="_blank" href="https://instagram.com/1sheraliyev1c">Odilbek Mukhamedov 👨🏻‍💻</a>
         </span>
       </div>
       <div className="contact">
