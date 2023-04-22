@@ -1,0 +1,124 @@
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 0 30px 30px 0;
+}
+::-webkit-scrollbar {
+    cursor: pointer;
+    width: 15px;
+}
+::-webkit-scrollbar-thumb {
+    background: green; 
+    border-radius:  0 30px 30px 0;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(1, 84, 1); 
+}
+.modal__container{
+    backdrop-filter: blur(5px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.close-modal {
+    display: none;
+}
+.Modal{
+    background-color: rgb(168, 250, 168);
+    border: 2px solid green;
+    width: 90%;
+    height: 80%;
+    border-radius: 20px;
+}
+.modal__header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.modal__title {
+    -webkit-text-stroke: 1px green;
+    color: #fff;
+    font-size: 30px;
+}
+.btn{
+    border: none;
+    background: green;
+    color: #fff;
+    border-radius: 15px;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.modal__body{
+    border: 2px solid green;
+    background: #fefefe;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 90%;
+    height: 70%;
+    border-radius: 20px;
+    overflow-y: scroll;
+}
+.modal__list{
+    display: block;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+.modal__item{
+    width: 350px;
+    height: 100px;
+    border: 2px solid green;
+    border-radius: 20px;
+    background: #f6fff0;
+    margin-bottom: 20px;
+}
+.item__content{
+    padding: 10px;
+}
+.item__content2{
+    text-align: end;
+    margin-top: -15px;
+    margin-right: -1px;
+}
+.user__name{
+    margin: 0;
+    font-size: 15px;
+    color: green;
+}
+.user__number{
+    font-size: 15px;
+    color: green;
+    margin: 0;
+}
+.user__course{
+    color: green;
+    font-size: 15px;
+    margin: 0;
+}
+.btn-danger{
+    height: 35px;
+    width: 35px;
+    border-radius: 0 0 15px 0;
+    border: 2px solid green;
+    background-color: green;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn-success{
+    height: 35px;
+    width: 35px;
+    border: 2px solid red;
+    background-color: red;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
