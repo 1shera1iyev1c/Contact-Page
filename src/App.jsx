@@ -23,6 +23,7 @@ export default function App() {
     };
     setUser([...user, newUser]);
     window.localStorage.setItem('user', JSON.stringify([newUser, ...user]))
+    alert("Kursga muvaffaqiyatli yozildingiz!")
   };
 
   const handleModal = () => {
